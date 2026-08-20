@@ -8,7 +8,6 @@
 
 body {
     font-size: 1.6rem;
-    position: relative;
     background-color: var(--bg-white);
     background-image: url("../img/bg_IA.png");
     background-attachment: fixed;
