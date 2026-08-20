@@ -1,0 +1,17 @@
+:root {
+    font-size: 62.5%;
+    font-family: "Open Sans", sans-serif;
+
+    --bg-white: #EDF1FF;
+    --section-purple: #8A4FFF;
+    --section-black: #000000;
+    --section-white: #ffffff;
+    --section-dark-blue: #273043;
+    --header-border: #A8A8A8;
+    --radial-gradient1: #47BDFD;
+    --radial-gradient2: #4B30F5;
+    --angular-gradent1-blue: #4B30F5
+    --angular-gradent2-blue:#47BDFD
+    --angular-gradent1-purple:#8A4FFF
+    --angular-gradent2-purple:#38299A
+}
