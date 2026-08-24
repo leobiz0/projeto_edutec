@@ -15,8 +15,6 @@ html::-webkit-scrollbar {
 }
 
 body {
-	display: flex;
-	justify-content: center;
 	margin: 0;
 	background: #edf1ff;
 	font-family: "Poppins", "Segoe UI", Arial, sans-serif;
@@ -37,25 +35,27 @@ img {
 .page {
 	position: relative;
 	width: 1440px;
+	margin: 0 auto;
 	background: #edf1ff;
 	overflow: hidden;
 	zoom: 1;
+	padding-top: 112px;
 }
 
 .site-header {
-	position: absolute;
+	position: fixed;
 	left: 0;
 	top: 0;
-	width: 1440px;
+	width: 100%;
 	height: 112px;
 	background: #ffffff;
 	border: 1px solid #a8a8a8;
-	z-index: 10;
+	z-index: 100;
 }
 
 .site-header .logo {
 	position: absolute;
-	left: 52px;
+	left: max(52px, calc((100vw - 1440px) / 2 + 52px));
 	top: 27px;
 	width: 238px;
 	height: 59px;
@@ -73,6 +73,14 @@ img {
 	height: 269.66%;
 	max-width: none;
 } 
+
+.site-header nav {
+	position: absolute;
+	left: max(0px, calc((100vw - 1440px) / 2));
+	top: 0;
+	width: 1440px;
+	height: 112px;
+}
 
 .site-header nav a,
 .site-header nav .active {
@@ -99,7 +107,7 @@ img {
 
 .site-header .moon-icon {
 	position: absolute;
-	right: 82px;
+	right: max(82px, calc((100vw - 1440px) / 2 + 82px));
 	top: 40px;
 	width: 32px;
 	height: 32px;

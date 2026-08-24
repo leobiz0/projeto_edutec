@@ -6,7 +6,7 @@
     position: absolute;
     left: 0;
     top: 108px;
-    width: 1439px;
+    width: 1440px;
     height: 274px;
     overflow: hidden;
     opacity: 0.3;
@@ -21,9 +21,9 @@
 }
 .aplicacoes-bg-bottom {
     position: absolute;
-    left: 1px;
+    left: 0;
     top: 3341px;
-    width: 1439px;
+    width: 1440px;
     height: 310px;
     overflow: hidden;
     opacity: 0.3;

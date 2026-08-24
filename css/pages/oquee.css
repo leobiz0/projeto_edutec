@@ -6,7 +6,7 @@
     position: absolute;
     left: 0;
     top: 112px;
-    width: 1439px;
+    width: 1440px;
     height: 959px;
     object-fit: cover;
     opacity: 0.3;
@@ -16,7 +16,7 @@
     position: absolute;
     left: 0;
     top: 1022px;
-    width: 1439px;
+    width: 1440px;
     height: 959px;
     object-fit: cover;
     opacity: 0.3;
@@ -24,9 +24,9 @@
 }
 .oquee-bg-3 {
     position: absolute;
-    left: 1px;
+    left: 0;
     top: 1863px;
-    width: 1439px;
+    width: 1440px;
     height: 507px;
     overflow: hidden;
     opacity: 0.3;

@@ -6,7 +6,7 @@
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 1439px;
+	width: 1440px;
 	height: 959px;
 	object-fit: cover;
 	opacity: 0.3;
@@ -16,7 +16,7 @@
 	position: absolute;
 	left: 0;
 	top: 919px;
-	width: 1439px;
+	width: 1440px;
 	height: 959px;
 	overflow: hidden;
 	opacity: 0.3;
@@ -31,9 +31,9 @@
 }
 .definicao-bg-3 {
 	position: absolute;
-	left: 1px;
+	left: 0;
 	top: 1782px;
-	width: 1439px;
+	width: 1440px;
 	height: 848px;
 	overflow: hidden;
 	opacity: 0.3;
