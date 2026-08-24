@@ -1,0 +1,222 @@
+.page-oquee {
+    height: 2346px;
+}
+
+.oquee-bg-1 {
+    position: absolute;
+    left: 0;
+    top: 112px;
+    width: 1439px;
+    height: 959px;
+    object-fit: cover;
+    opacity: 0.3;
+    pointer-events: none;
+}
+.oquee-bg-2 {
+    position: absolute;
+    left: 0;
+    top: 1022px;
+    width: 1439px;
+    height: 959px;
+    object-fit: cover;
+    opacity: 0.3;
+    pointer-events: none;
+}
+.oquee-bg-3 {
+    position: absolute;
+    left: 1px;
+    top: 1863px;
+    width: 1439px;
+    height: 507px;
+    overflow: hidden;
+    opacity: 0.3;
+    pointer-events: none;
+}
+.oquee-bg-3 img {
+    position: absolute;
+    left: 0;
+    top: -0.03%;
+    width: 100%;
+    height: 189.22%;
+}
+
+
+.oquee-card {
+    position: absolute;
+    left: 242px;
+    width: 955px;
+    height: 395px;
+    background: #8a4fff;
+    border-radius: 95px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);
+}
+.oquee-card-1 {
+    top: 216px;
+}
+.oquee-card-2 {
+    top: 718px;
+}
+.oquee-card-3 {
+    top: 1220px;
+}
+.oquee-card-4 {
+    top: 1722px;
+}
+
+.oquee-card-title {
+    position: absolute;
+    left: 50%;
+    width: 596px;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: "Poppins", "Segoe UI", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 55px;
+    color: #ffffff;
+    line-height: normal;
+}
+.oquee-card-title-1 {
+    top: 270px;
+}
+.oquee-card-title-2 {
+    top: 772px;
+}
+.oquee-card-title-3 {
+    top: 1274px;
+}
+.oquee-card-title-4 {
+    top: 1776px;
+}
+
+.oquee-card-btn {
+    position: absolute;
+    left: 480px;
+    width: 479px;
+    height: 83px;
+    background: #edf1ff;
+    border-radius: 21px;
+}
+.oquee-card-btn-1 {
+    top: 474px;
+}
+.oquee-card-btn-2 {
+    top: 976px;
+}
+.oquee-card-btn-3 {
+    top: 1478px;
+}
+.oquee-card-btn-4 {
+    top: 1980px;
+}
+
+.oquee-card-btn-label {
+    position: absolute;
+    left: 50%;
+    width: 596px;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: "Poppins", "Segoe UI", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 55px;
+    color: #273043;
+    cursor: pointer;
+}
+.oquee-card-btn-label-1 {
+    top: 474px;
+}
+.oquee-card-btn-label-2 {
+    top: 976px;
+}
+.oquee-card-btn-label-3 {
+    top: 1478px;
+}
+.oquee-card-btn-label-4 {
+    top: 1980px;
+}
+
+.oquee-deco {
+    position: absolute;
+    overflow: hidden;
+    pointer-events: none;
+}
+.oquee-deco img {
+    position: absolute;
+    max-width: none;
+}
+
+.oquee-deco-1 {
+    left: 140px;
+    top: 112px;
+    width: 271.729px;
+    height: 255.869px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.oquee-deco-1 .rotate-wrap {
+    width: 232.434px;
+    height: 211.773px;
+    position: relative;
+    transform: rotate(-12.12deg);
+    overflow: hidden;
+}
+.oquee-deco-1 img {
+    left: -35.19%;
+    top: 0;
+    width: 284.44%;
+    height: 208.13%;
+}
+
+.oquee-deco-2 {
+    left: 1020.06px;
+    top: 647.41px;
+    width: 225.364px;
+    height: 249.55px;
+}
+.oquee-deco-2 img {
+    left: -210.73%;
+    top: -11.45%;
+    width: 374.63%;
+    height: 225.55%;
+}
+
+.oquee-deco-3 {
+    left: 107.96px;
+    top: 1091.09px;
+    width: 357.082px;
+    height: 334.816px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.oquee-deco-3 .rotate-wrap {
+    width: 293px;
+    height: 259px;
+    position: relative;
+    transform: rotate(-17.41deg);
+    overflow: hidden;
+}
+.oquee-deco-3 img {
+    left: -38.56%;
+    top: -102.51%;
+    width: 283.39%;
+    height: 213.78%;
+}
+
+.oquee-deco-4 {
+    left: 973px;
+    top: 1678px;
+    width: 316.655px;
+    height: 241.63px;
+}
+.oquee-deco-4 img {
+    left: -130.07%;
+    top: -108.78%;
+    width: 250.98%;
+    height: 219.27%;
+}
+
+.oquee-footer-credit {
+    left: 575px;
+    top: 2290px;
+}

@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: #edf1ff;
+	scrollbar-width: none;
+	min-height: 100%;
+}
+
+html::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	background: #edf1ff;
+	font-family: "Poppins", "Segoe UI", Arial, sans-serif;
+	color: #000000;
+	min-height: 100vh;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	display: block;
+	max-width: none;
+}
+
+.page {
+	position: relative;
+	width: 1440px;
+	background: #edf1ff;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.site-header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1440px;
+	height: 112px;
+	background: #ffffff;
+	border: 1px solid #a8a8a8;
+	z-index: 10;
+}
+
+.site-header .logo {
+	position: absolute;
+	left: 52px;
+	top: 27px;
+	width: 238px;
+	height: 59px;
+}
+
+.logo-crop {
+	overflow: hidden;
+	pointer-events: none;
+}
+.logo-crop img {
+	position: absolute;
+	left: -0.04%;
+	top: -74.48%;
+	width: 100.09%;
+	height: 269.66%;
+	max-width: none;
+} 
+
+.site-header nav a,
+.site-header nav .active {
+	position: absolute;
+	top: 43px;
+	font-family: "Poppins", "Segoe UI", Arial, sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	color: #000000;
+	white-space: nowrap;
+}
+
+.site-header nav .active {
+	color: #8a4fff;
+}
+
+.site-header .nav-underline {
+	position: absolute;
+	top: 111px;
+	width: 58px;
+	height: 3px;
+	background: #8a4fff;
+}
+
+.site-header .moon-icon {
+	position: absolute;
+	right: 82px;
+	top: 40px;
+	width: 32px;
+	height: 32px;
+}
+
+.footer-credit {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	gap: 2.575px;
+}
+
+.footer-credit img {
+	width: 9.155px;
+	height: 9.155px;
+	transform: scaleY(-1);
+}
+
+.footer-credit p {
+	font-family: "Poppins", "Segoe UI", Arial, sans-serif;
+	font-weight: 400;
+	font-size: 11px;
+	width: 278.266px;
+}
