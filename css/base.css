@@ -1,134 +1,134 @@
+/* Base tokens extraídos do Figma (arquivo EDUTEC-original, odXIkiO59fZYRi631MrsXW) */
+/* Fonte Poppins é carregada via <link> no <head> de cada página (mais rápido que @import) */
+
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-	background: #edf1ff;
-	scrollbar-width: none;
-	min-height: 100%;
+  background: #edf1ff; /* js/fill-screen.js ajusta pra cor de cada página */
+  scrollbar-width: none; /* Firefox */
+  min-height: 100%;
 }
-
 html::-webkit-scrollbar {
-	display: none;
+  display: none; /* Chrome/Edge/Safari */
 }
 
 body {
-	margin: 0;
-	background: #edf1ff;
-	font-family: "Poppins", "Segoe UI", Arial, sans-serif;
-	color: #000000;
-	min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background: #edf1ff; /* js/fill-screen.js ajusta pra cor de cada página */
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  color: #000000;
+  min-height: 100vh; /* cobre a tela toda mesmo quando o zoom encolhe o conteúdo abaixo da altura da janela */
 }
 
 a {
-	text-decoration: none;
-	color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 img {
-	display: block;
-	max-width: none;
+  display: block;
+  max-width: none;
 }
 
 .page {
-	position: relative;
-	width: 1440px;
-	margin: 0 auto;
-	background: #edf1ff;
-	overflow: hidden;
-	zoom: 1;
-	padding-top: 112px;
+  position: relative;
+  width: 1440px;
+  background: #edf1ff; /* js/fill-screen.js ajusta pra cor de cada página */
+  overflow: hidden; /* frames do Figma cortam tudo que passa da borda */
+  zoom: 1; /* js/fill-screen.js recalcula isso continuamente */
 }
 
+/* Header — 112px, idêntico em todas as telas internas.
+   width é recalculado por js/fill-screen.js pra SEMPRE renderizar
+   exatamente 100% da largura da tela, mesmo quando o zoom encolhe o
+   resto da página (fica na mesma "escala" do resto, só a largura do
+   header em si é esticada — evita desalinhamento vertical). */
 .site-header {
-	position: fixed;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 112px;
-	background: #ffffff;
-	border: 1px solid #a8a8a8;
-	z-index: 100;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1440px;
+  height: 112px;
+  background: #ffffff;
+  border: 1px solid #a8a8a8;
+  z-index: 10;
 }
 
 .site-header .logo {
-	position: absolute;
-	left: max(52px, calc((100vw - 1440px) / 2 + 52px));
-	top: 27px;
-	width: 238px;
-	height: 59px;
+  position: absolute;
+  left: 52px;
+  top: 27px;
+  width: 238px;
+  height: 59px;
 }
 
+/* Logo real é um recorte ampliado da imagem-fonte (técnica de crop do Figma) */
 .logo-crop {
-	overflow: hidden;
-	pointer-events: none;
+  overflow: hidden;
+  pointer-events: none;
 }
 .logo-crop img {
-	position: absolute;
-	left: -0.04%;
-	top: -74.48%;
-	width: 100.09%;
-	height: 269.66%;
-	max-width: none;
-} 
-
-.site-header nav {
-	position: absolute;
-	left: max(0px, calc((100vw - 1440px) / 2));
-	top: 0;
-	width: 1440px;
-	height: 112px;
+  position: absolute;
+  left: -0.04%;
+  top: -74.48%;
+  width: 100.09%;
+  height: 269.66%;
+  max-width: none;
 }
 
 .site-header nav a,
 .site-header nav .active {
-	position: absolute;
-	top: 43px;
-	font-family: "Poppins", "Segoe UI", Arial, sans-serif;
-	font-weight: 400;
-	font-size: 22px;
-	color: #000000;
-	white-space: nowrap;
+  position: absolute;
+  top: 43px;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #000000;
+  white-space: nowrap;
 }
 
 .site-header nav .active {
-	color: #8a4fff;
+  color: #8a4fff;
 }
 
 .site-header .nav-underline {
-	position: absolute;
-	top: 111px;
-	width: 58px;
-	height: 3px;
-	background: #8a4fff;
+  position: absolute;
+  top: 111px;
+  width: 58px;
+  height: 3px;
+  background: #8a4fff;
 }
 
 .site-header .moon-icon {
-	position: absolute;
-	right: max(82px, calc((100vw - 1440px) / 2 + 82px));
-	top: 40px;
-	width: 32px;
-	height: 32px;
+  position: absolute;
+  right: 82px; /* 1440 - 1326 - 32, mesma distância da borda direita original — mas agora acompanha a borda que estica */
+  top: 40px;
+  width: 32px;
+  height: 32px;
 }
 
 .footer-credit {
-	position: absolute;
-	display: flex;
-	align-items: center;
-	gap: 2.575px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 2.575px; /* ícone © (9.155px) + gap real até o texto, medido no Figma */
 }
 
 .footer-credit img {
-	width: 9.155px;
-	height: 9.155px;
-	transform: scaleY(-1);
+  width: 9.155px;
+  height: 9.155px;
+  transform: scaleY(-1);
 }
 
 .footer-credit p {
-	font-family: "Poppins", "Segoe UI", Arial, sans-serif;
-	font-weight: 400;
-	font-size: 11px;
-	width: 278.266px;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  width: 278.266px;
 }

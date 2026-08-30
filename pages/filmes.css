@@ -1,0 +1,227 @@
+/* Tela: Filmes / Ex Machina (node 36:14) — 1440 x 1024 */
+.page-filmes {
+  height: 1024px;
+  background: #8a4fff;
+}
+
+.filmes-bg-photo {
+  position: absolute;
+  left: 0;
+  top: 112px;
+  width: 1440px;
+  height: 912px;
+  opacity: 0.4;
+  overflow: hidden;
+  pointer-events: none;
+}
+.filmes-bg-photo img {
+  position: absolute;
+  left: -3.61%;
+  top: -0.01%;
+  width: 109.58%;
+  height: 100.02%;
+  max-width: none;
+}
+.filmes-bg-pattern {
+  position: absolute;
+  left: 1px;
+  top: 112px;
+  width: 1439px;
+  height: 912px;
+  overflow: hidden;
+  opacity: 0.3;
+  pointer-events: none;
+}
+.filmes-bg-pattern img {
+  position: absolute;
+  left: 0;
+  top: -0.02%;
+  width: 100%;
+  height: 105.19%;
+  max-width: none;
+}
+.filmes-character {
+  position: absolute;
+  left: -175px;
+  top: 184px;
+  width: 929px;
+  height: 1161px;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.filmes-title {
+  position: absolute;
+  left: 102px;
+  top: 375px;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  color: #edf1ff;
+  white-space: nowrap;
+}
+
+.filmes-synopsis {
+  position: absolute;
+  left: 102px;
+  top: 458px;
+  width: 413px;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #edf1ff;
+  line-height: normal;
+}
+
+.filmes-watch-btn {
+  position: absolute;
+  left: 168px;
+  top: 728px;
+  width: 244px;
+  height: 60px;
+  background: #edf1ff;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.filmes-watch-btn span {
+  position: absolute;
+  left: 32px;
+  top: 13px;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: #273043;
+  white-space: nowrap;
+}
+
+.filmes-footer-credit {
+  left: 609px;
+  top: 973px;
+  color: #000000;
+}
+
+/* Carrossel de pôsteres — arrasta com o mouse/touch direto na imagem, sem barra de rolagem visível */
+.filmes-carousel {
+  position: absolute;
+  left: 599px;
+  top: 297px;
+  width: 845px;
+  height: 431px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  cursor: grab;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+  scrollbar-width: none; /* Firefox */
+}
+.filmes-carousel::-webkit-scrollbar {
+  display: none; /* Chrome/Edge/Safari */
+}
+.filmes-carousel.dragging {
+  cursor: grabbing;
+}
+.filmes-carousel img,
+.filmes-carousel a {
+  -webkit-user-drag: none;
+  user-drag: none;
+}
+.filmes-carousel-track {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  height: 100%;
+}
+.filmes-poster {
+  flex-shrink: 0;
+  width: 290.143px;
+  height: 430.535px;
+  background: #8a4fff;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+}
+.filmes-poster img {
+  position: absolute;
+  max-width: none;
+}
+.filmes-poster-1 img { left: 0; top: 0; width: 290.905px; height: 430.54px; }
+.filmes-poster-2 img { left: -0.14px; top: 0; width: 293.134px; height: 430.54px; }
+.filmes-poster-3 img { left: -0.287px; top: -0.00006px; width: 296px; height: 445px; }
+.filmes-poster-4 img { left: -10.43px; top: -19px; width: 311px; height: 467px; }
+.filmes-poster-5 img { left: 0.43px; top: -8px; width: 300px; height: 446px; }
+.filmes-poster-6 img { left: -3.72px; top: 0; width: 294px; height: 435px; }
+.filmes-poster-7 img { left: 0.14px; top: 0; width: 290px; height: 431px; }
+.filmes-poster a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Carrossel estático (2001 Space, no Figma esse frame não tem overflow-x-auto) */
+.filmes-carousel-static {
+  position: absolute;
+  left: 599px;
+  top: 297px;
+  width: 845px;
+  height: 431px;
+  overflow: hidden;
+}
+
+/* Variações de fundo por filme (mesma técnica de crop, percentuais próprios) */
+.matrix-bg-photo {
+  position: absolute;
+  left: 0;
+  top: 106px;
+  width: 1444px;
+  height: 918px;
+  opacity: 0.4;
+  overflow: hidden;
+  pointer-events: none;
+}
+.matrix-bg-photo img {
+  position: absolute;
+  left: -3.88%;
+  top: -0.01%;
+  width: 107.41%;
+  height: 101.43%;
+  max-width: none;
+}
+
+.eurobo-bg-photo {
+  position: absolute;
+  left: 0;
+  top: 112px;
+  width: 1440px;
+  height: 915px;
+  opacity: 0.4;
+  overflow: hidden;
+  pointer-events: none;
+}
+.eurobo-bg-photo img {
+  position: absolute;
+  left: -5.79%;
+  top: 0;
+  width: 112.28%;
+  height: 100%;
+  max-width: none;
+}
+
+.n2001-bg-photo {
+  position: absolute;
+  left: 0;
+  top: 112px;
+  width: 1440px;
+  height: 912px;
+  opacity: 0.4;
+  overflow: hidden;
+  pointer-events: none;
+}
+.n2001-bg-photo img {
+  position: absolute;
+  left: -6.33%;
+  top: 0;
+  width: 112.59%;
+  height: 100%;
+  max-width: none;
+}
