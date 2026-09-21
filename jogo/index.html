@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#8A4FFF">
+  <link rel="icon" type="image/png" href="../favicon.png">
+  <title>INOVA RUNNER</title>
+  <link rel="stylesheet" href="../css/estilo.css?v=10">
+  <!-- A ordem importa: dados e funções são carregados antes do jogo. -->
+  <script src="../js/configuracao.js?v=10" defer></script>
+  <script src="../js/perguntas.js?v=10" defer></script>
+  <script src="../js/imagens.js?v=10" defer></script>
+  <script src="../js/poses.js?v=10" defer></script>
+  <script src="../js/personagens.js?v=10" defer></script>
+  <script src="../js/cenario.js?v=10" defer></script>
+  <script src="../js/confetes.js?v=10" defer></script>
+  <script src="../js/jogo.js?v=10" defer></script>
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <a href="../index.html"><img class="brand-logo" src="../assets/logo-inovaai.png" alt="InovaAI"></a>
+      <span>600 metros até a chegada</span>
+    </header>
+
+    <!-- Tela inicial: a escolha já inicia a partida. -->
+    <section id="menu" class="screen selection" aria-labelledby="menu-title">
+      <div class="intro">
+        <h1 id="menu-title">Com quem você vai?</h1>
+        <p>Escolha um personagem, desvie dos desafios e teste seus conhecimentos.</p>
+        <div class="topic-list"><span>Machine learning</span><span>Deep learning</span><span>Visão computacional</span><span>IA no dia a dia</span></div>
+      </div>
+      <div class="characters">
+        <button class="character" data-character="bin" disabled aria-label="Jogar com BIN">
+          <span class="portrait"><canvas id="portrait-bin" width="310" height="360" aria-hidden="true"></canvas></span>
+          <span class="character-footer"><strong>BIN</strong><span class="choose">Jogar</span></span>
+        </button>
+        <button class="character" data-character="marcio" disabled aria-label="Jogar com Marcio">
+          <span class="portrait"><canvas id="portrait-marcio" width="310" height="360" aria-hidden="true"></canvas></span>
+          <span class="character-footer"><strong>Marcio</strong><span class="choose">Jogar</span></span>
+        </button>
+      </div>
+      <p id="load-status" class="load-status" role="status">Carregando os personagens…</p>
+      <div class="instructions" aria-label="Controles">
+        <span><kbd>↑</kbd> Pular</span>
+        <span><kbd>↓</kbd> Rolar</span>
+        <span><kbd>←</kbd> Voltar</span>
+        <span><kbd>→</kbd> Acelerar</span>
+        <span><kbd>Esc</kbd> Pausar</span>
+      </div>
+      <p class="hint">Bateu em um obstáculo? Acerte uma pergunta para continuar.<br>Se errar, a partida acaba.</p>
+    </section>
+
+    <!-- Percurso e placar. -->
+    <section id="game" class="screen" hidden aria-label="Corrida">
+      <div class="game-top">
+        <h2 id="runner-name">BIN na corrida</h2>
+        <button id="pause" class="button secondary">Pausar</button>
+      </div>
+      <div class="hud">
+        <span><small>Distância</small><strong id="distance">0 / 600 m</strong></span>
+        <div class="progress" role="progressbar" aria-label="Progresso da corrida" aria-valuemin="0" aria-valuemax="600" aria-valuenow="0">
+          <div id="progress-fill"></div>
+        </div>
+        <span><small>Acertos</small><strong id="score">00</strong></span>
+      </div>
+      <div class="arena">
+        <canvas id="world" width="1100" height="520" role="img" aria-label="Corrida 2D. Use as setas para mover, pular e rolar."></canvas>
+      </div>
+      <div class="play-footer">
+        <p>↑ Pule chips e blocos de dados <span>·</span> ↓ Role sob os scanners</p>
+        <span id="game-status" role="status">Boa corrida!</span>
+      </div>
+      <div class="touch-controls" aria-label="Controles de toque">
+        <button data-control="ArrowLeft" aria-label="Mover para esquerda">←</button>
+        <button data-control="ArrowRight" aria-label="Acelerar">→ Acelerar</button>
+        <button data-control="ArrowUp">↑ Pular</button>
+        <button data-control="ArrowDown">↓ Rolar</button>
+      </div>
+    </section>
+
+    <!-- Resultado: derrota ou chegada. -->
+    <section id="result" class="screen result" hidden aria-labelledby="result-title">
+      <canvas id="confetti" aria-hidden="true"></canvas>
+      <span id="result-symbol" class="result-symbol" aria-hidden="true">★</span>
+      <span id="result-eyebrow">Percurso concluído</span>
+      <h1 id="result-title">Parabéns!</h1>
+      <p id="result-description"></p>
+      <p id="result-detail" class="result-detail"></p>
+      <div class="actions">
+        <button id="retry" class="button">Jogar novamente</button>
+        <button id="home" class="button secondary">Voltar ao início</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pergunta obrigatória após uma colisão. -->
+  <dialog id="quiz" aria-labelledby="question-title">
+    <p id="question-category" class="category">Machine learning</p>
+    <p class="modal-lead">Bateu! Responda para continuar.</p>
+    <h2 id="question-title"></h2>
+    <div id="answers" class="answers"></div>
+    <p id="answer-feedback" role="status"></p>
+    <button id="continue" class="button" hidden>Continuar corrida</button>
+  </dialog>
+
+  <dialog id="pause-dialog" aria-labelledby="pause-title">
+    <h2 id="pause-title">Jogo pausado</h2>
+    <p>Continue quando quiser.</p>
+    <div class="actions">
+      <button id="resume" class="button">Continuar</button>
+      <button id="pause-home" class="button secondary">Voltar ao início</button>
+    </div>
+  </dialog>
+  <noscript>Ative o JavaScript no navegador para jogar.</noscript>
+</body>
+</html>
