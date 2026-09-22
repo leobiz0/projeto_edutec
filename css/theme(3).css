@@ -1,0 +1,167 @@
+/* Somente cores e ícone: a composição e a escala do Figma permanecem iguais. */
+.site-header .theme-toggle {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+.site-header .theme-toggle img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+.site-header .theme-toggle[aria-pressed="true"] img {
+  width: 43px;
+  height: 43px;
+  max-width: none;
+}
+.theme-toggle:focus-visible {
+  outline: 3px solid #8a4fff;
+  outline-offset: 7px;
+}
+html[data-theme="dark"],
+html[data-theme="dark"] body,
+html[data-theme="dark"] .page {
+  background: #273043;
+}
+html[data-theme="dark"] .page-oquee .site-header {
+  background: #edf1ff;
+}
+html[data-theme="dark"] .inicio-hero-title,
+html[data-theme="dark"] .inicio-explore-title,
+html[data-theme="dark"] .aplicacoes-title,
+html[data-theme="dark"] .filmes-title {
+  color: #fff;
+}
+html[data-theme="dark"] .inicio-hero-title .gradient {
+  background-image: linear-gradient(90deg, #b28aff, #edf1ff);
+}
+html[data-theme="dark"] .inicio-band-dark {
+  background: #8a4fff;
+}
+html[data-theme="dark"] .inicio-nome {
+  color: #8a4fff;
+}
+html[data-theme="dark"] .inicio-grupo-title {
+  background-image: radial-gradient(ellipse at center, #47bdfd, #edf1ff);
+}
+html[data-theme="dark"] .filmes-synopsis,
+html[data-theme="dark"] .footer-credit {
+  color: #edf1ff;
+}
+html[data-theme="dark"] .inicio-footer-credit {
+  color: #273043;
+}
+html[data-theme="dark"] .definicao-video-card,
+html[data-theme="dark"] .artigo-video-card {
+  background: #edf1ff;
+}
+html[data-theme="dark"] .definicao-video-title,
+html[data-theme="dark"] .artigo-video-title {
+  color: #273043;
+}
+html[data-theme="dark"] .aplicacoes-band-purple-2 {
+  background: #6845e5;
+}
+html[data-theme="dark"] .page-aplicacoes:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 904px;
+  width: 1440px;
+  height: 668px;
+  background: #edf1ff;
+}
+.video-resource-link {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -44px;
+  display: block;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.definicao-video-frame,
+.artigo-video-frame {
+  overflow: visible;
+}
+html[data-theme="dark"] .video-resource-link {
+  color: #273043;
+}
+
+/* A capa permanece visível; o clique abre a videoaula no YouTube. */
+.video-cover {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #edf1ff;
+}
+.video-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.video-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 88px;
+  height: 62px;
+  border-radius: 15px;
+  background: #f03;
+  box-shadow: 0 2px 10px #0004;
+}
+.video-play::after {
+  content: "";
+  position: absolute;
+  left: 36px;
+  top: 19px;
+  border-left: 23px solid white;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+.video-cover:hover .video-play {
+  background: #c00;
+}
+
+/* Estende somente o fundo do cabeçalho até as bordas da janela. */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--header-background-height, 0px);
+  background: #fff;
+  pointer-events: none;
+}
+html[data-theme="dark"] body:has(.page-oquee)::before {
+  background: #edf1ff;
+}
+/* A borda acompanha o fundo inteiro, sem linhas verticais no meio da faixa. */
+.site-header { border-color: transparent; }
+body::before { border-block: 1px solid #a8a8a8; box-sizing: border-box; }
+body:not(:has(.site-header))::before { display: none; }
+
+/* Mesma escala desde a primeira pintura e mesma tipografia em todas as páginas. */
+.page { zoom: var(--page-scale, 0.75); }
+.site-header nav a,
+.site-header nav .active {
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: normal;
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+}

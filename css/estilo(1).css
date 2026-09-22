@@ -1,0 +1,214 @@
+/* 1. Cores e estilos gerais */
+:root {
+  --roxo: #8A4FFF;
+  --escuro: #273043;
+  --branco: #FFFFFF;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  color: var(--branco);
+  background: var(--roxo);
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; }
+button { font: inherit; cursor: pointer; }
+button:disabled { cursor: wait; opacity: .65; }
+button:focus-visible { outline: 3px solid var(--escuro); outline-offset: 5px; }
+p { font-size: 16px; line-height: 1.6; }
+h1 { font-size: clamp(32px, 5vw, 48px); line-height: 1.15; margin: 0 0 12px; }
+h2 { font-size: 26px; line-height: 1.3; margin: 12px 0; }
+.shell { width: min(1100px, 92%); margin: 0 auto; }
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  min-height: 80px;
+  border-bottom: 2px solid rgba(255,255,255,.35);
+}
+.brand-logo { display: block; width: 180px; height: 58px; object-fit: contain; object-position: left center; }
+.topbar > span:last-child { font-size: 14px; }
+
+/* 2. Seleção de personagem */
+.selection { position: relative; isolation: isolate; padding: 42px 0 28px; }
+.selection::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background: url("../assets/fundo-home.png") center / cover no-repeat;
+  opacity: .5;
+  pointer-events: none;
+}
+.selection::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(39,48,67,.58), rgba(138,79,255,.72));
+  pointer-events: none;
+}
+.intro { text-align: center; }
+.intro p { margin: 0; }
+.topic-list { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.topic-list span { padding: 7px 11px; border: 1px solid rgba(255,255,255,.65); border-radius: 99px; background: rgba(39,48,67,.55); font-size: 13px; }
+.characters {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  width: min(640px, 100%);
+  margin: 30px auto 20px;
+}
+.character {
+  padding: 0;
+  background: rgba(28, 23, 55, .82);
+  color: var(--branco);
+  border: 1px solid rgba(255,255,255,.5);
+  border-radius: 18px;
+  box-shadow: 0 22px 55px rgba(20, 13, 44, .38);
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  transition: transform .15s, box-shadow .15s;
+}
+.character:hover:not(:disabled) { transform: translateY(-7px); box-shadow: 0 28px 65px rgba(20,13,44,.55); border-color: var(--branco); }
+.portrait { display: flex; justify-content: center; height: 286px; padding-top: 14px; }
+.portrait canvas { height: 272px; width: auto; max-width: 100%; object-fit: contain; }
+.character-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 17px 20px;
+  border-top: 1px solid rgba(255,255,255,.25);
+}
+.character-footer strong { font-size: 27px; }
+.choose { background: var(--roxo); color: var(--branco); padding: 10px 20px; border-radius: 8px; font-weight: bold; }
+.load-status { text-align: center; font-size: 14px; min-height: 22px; margin: 20px 0; }
+.instructions { display: flex; flex-wrap: wrap; justify-content: center; gap: 22px; }
+.instructions span { display: flex; gap: 7px; align-items: center; font-size: 15px; }
+kbd {
+  display: inline-grid;
+  place-items: center;
+  min-width: 30px;
+  height: 30px;
+  padding: 3px 6px;
+  border: 1px solid var(--escuro);
+  border-bottom: 3px solid var(--escuro);
+  border-radius: 4px;
+  background: var(--branco);
+  color: var(--escuro);
+  font: inherit;
+}
+.hint { text-align: center; margin: 24px auto 0; max-width: 580px; }
+
+/* 3. Botões compartilhados */
+.button {
+  background: var(--escuro);
+  color: var(--branco);
+  border: 2px solid var(--escuro);
+  border-radius: 6px;
+  padding: 12px 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.button:hover { text-decoration: underline; }
+.button.secondary { background: var(--branco); color: var(--escuro); }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 24px; }
+
+/* 4. Placar, percurso e controles de toque */
+.game-top { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 22px 0; }
+.hud {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background: var(--branco);
+  color: var(--escuro);
+  padding: 16px 22px;
+  border: 3px solid var(--escuro);
+  border-bottom: 0;
+  border-radius: 10px 10px 0 0;
+}
+.hud small { display: block; font-size: 14px; }
+.hud strong { display: block; font-size: 21px; margin-top: 5px; font-variant-numeric: tabular-nums; }
+.progress { height: 12px; flex: 1; border: 2px solid var(--escuro); border-radius: 3px; overflow: hidden; }
+#progress-fill { width: 0; height: 100%; background: var(--roxo); }
+.arena { border: 3px solid var(--escuro); border-radius: 0 0 10px 10px; overflow: hidden; box-shadow: 7px 8px 0 rgba(39,48,67,.5); }
+#world { display: block; width: 100%; aspect-ratio: 1100 / 520; }
+.play-footer { display: flex; justify-content: space-between; gap: 20px; align-items: center; }
+.play-footer p, .play-footer > span { font-size: 14px; }
+.play-footer p span { margin: 0 8px; }
+.touch-controls { display: flex; gap: 10px; justify-content: center; padding: 10px 0 24px; }
+.touch-controls button {
+  padding: 12px 20px;
+  background: var(--branco);
+  color: var(--escuro);
+  border: 2px solid var(--escuro);
+  border-radius: 6px;
+  touch-action: none;
+  user-select: none;
+}
+
+/* 5. Perguntas e pausa */
+dialog {
+  width: min(560px, calc(100% - 32px));
+  max-height: 90dvh;
+  padding: 28px;
+  background: var(--branco);
+  color: var(--escuro);
+  border: 3px solid var(--escuro);
+  border-radius: 10px;
+  box-shadow: 7px 7px 0 var(--escuro);
+}
+dialog::backdrop { background: rgba(39,48,67,.72); }
+.category { display: inline-block; font-weight: bold; margin: 0 0 12px; padding-bottom: 5px; border-bottom: 4px solid var(--roxo); }
+.modal-lead { margin: 0 0 12px; }
+.answers { display: grid; gap: 10px; margin-top: 22px; }
+.answer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-align: left;
+  padding: 13px 15px;
+  border: 2px solid var(--escuro);
+  border-radius: 6px;
+  background: var(--branco);
+  color: var(--escuro);
+  font-size: 16px;
+  line-height: 1.4;
+}
+.answer:hover:not(:disabled) { background: var(--escuro); color: var(--branco); }
+.answer:focus-visible { outline: none; }
+.answer.correct { border-color: var(--escuro); opacity: 1; box-shadow: none; }
+#answer-feedback:empty { display: none; }
+#continue { width: 100%; }
+
+/* 6. Resultado */
+.result { position: relative; isolation: isolate; overflow: hidden; text-align: center; min-height: 650px; padding: 110px 15px 70px; }
+.result > :not(#confetti) { position: relative; z-index: 1; }
+#confetti { position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%; pointer-events: none; }
+.result-symbol { display: block; font-size: 64px; margin-bottom: 14px; }
+#result-eyebrow { display: block; margin-bottom: 14px; }
+.result p { max-width: 600px; margin: 20px auto; }
+.result-detail { padding-top: 18px; border-top: 2px solid rgba(255,255,255,.4); }
+
+/* 7. Telas menores e preferência por menos movimento */
+@media (max-width: 600px) {
+  .topbar { min-height: 66px; }
+  .brand-logo { width: 145px; height: 48px; }
+  .topbar > span:last-child { display: none; }
+  .selection { padding-top: 30px; }
+  .characters { gap: 16px; }
+  .portrait { height: 212px; }
+  .portrait canvas { height: 198px; }
+  .character-footer { padding: 13px 10px; flex-direction: column; }
+  .character-footer strong { font-size: 24px; }
+  .choose { width: 100%; }
+  .instructions { gap: 12px; }
+  .hud { padding: 12px; gap: 12px; }
+  .hud strong { font-size: 17px; }
+  .play-footer { display: block; }
+  .touch-controls button { padding: 12px; }
+  dialog { padding: 20px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .character { transition: none; }
+}

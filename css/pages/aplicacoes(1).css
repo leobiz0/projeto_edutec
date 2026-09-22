@@ -1,0 +1,130 @@
+/* Tela: Aplicações (node 28:88) — 1440 x 3651 */
+.page-aplicacoes {
+  height: 3651px;
+}
+
+.aplicacoes-bg-top {
+  position: absolute;
+  left: 0;
+  top: 108px;
+  width: 1439px;
+  height: 274px;
+  overflow: hidden;
+  opacity: 0.3;
+  pointer-events: none;
+}
+.aplicacoes-bg-top img {
+  position: absolute;
+  left: 0;
+  top: -0.06%;
+  width: 100%;
+  height: 350.12%;
+}
+.aplicacoes-bg-bottom {
+  position: absolute;
+  left: 1px;
+  top: 3341px;
+  width: 1439px;
+  height: 310px;
+  overflow: hidden;
+  opacity: 0.3;
+  pointer-events: none;
+}
+.aplicacoes-bg-bottom img {
+  position: absolute;
+  left: 0;
+  top: -0.05%;
+  width: 100%;
+  height: 309.46%;
+}
+
+.aplicacoes-title {
+  position: absolute;
+  left: 218px;
+  top: 215px;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  color: #273043;
+  white-space: nowrap;
+}
+
+/* Faixas de fundo */
+.aplicacoes-band {
+  position: absolute;
+  left: 0;
+  width: 1440px;
+  height: 668px;
+}
+.aplicacoes-band-purple-1 { top: 375px; background: #8a4fff; }
+.aplicacoes-band-dark { top: 1744px; height: 736px; background: #273043; }
+.aplicacoes-band-purple-2 { top: 2480px; background: #8a4fff; }
+
+.aplicacoes-ellipse {
+  position: absolute;
+  left: -148px;
+  width: 1736px;
+  height: 526px;
+  pointer-events: none;
+}
+.aplicacoes-ellipse-1 { top: 641px; }
+.aplicacoes-ellipse-2 { top: 1357px; left: -133px; }
+.aplicacoes-ellipse-3 { top: 2130px; }
+.aplicacoes-ellipse-4 { top: 2885px; }
+
+/* Blocos de texto */
+.aplicacoes-heading {
+  position: absolute;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  white-space: nowrap;
+}
+.aplicacoes-heading-saude { left: 116px; top: 442px; color: #ffffff; }
+.aplicacoes-heading-industria { left: 823px; top: 1280px; color: #8a4fff; text-align: left; }
+.aplicacoes-heading-transporte { left: 109px; top: 1973px; color: #ffffff; }
+.aplicacoes-heading-educacao {
+  right: 122px;
+  top: 2737px;
+  text-align: right;
+  color: #edf1ff;
+}
+
+.aplicacoes-body {
+  position: absolute;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: normal;
+}
+.aplicacoes-body-saude { left: 116px; top: 554px; width: 689px; color: #ffffff; }
+.aplicacoes-body-industria { right: 122px; top: 1385px; width: 702px; text-align: right; color: #8a4fff; }
+.aplicacoes-body-transporte { left: 116px; top: 2104px; width: 707px; color: #ffffff; }
+.aplicacoes-body-educacao { right: 122px; top: 2859px; width: 705px; text-align: right; color: #edf1ff; }
+
+/* Ícones (mesma imagem-fonte, 4 recortes) */
+.aplicacoes-icon {
+  position: absolute;
+  overflow: hidden;
+  pointer-events: none;
+}
+.aplicacoes-icon img {
+  position: absolute;
+  max-width: none;
+}
+.aplicacoes-icon-saude { left: 838px; top: 487px; width: 520px; height: 524px; }
+.aplicacoes-icon-saude img { left: -46.18%; top: -103.98%; width: 308.43%; height: 203.98%; }
+
+.aplicacoes-icon-industria { left: 26px; top: 1211px; width: 590px; height: 507px; }
+.aplicacoes-icon-industria img { left: -132.03%; top: -101.97%; width: 260.34%; height: 201.97%; }
+
+.aplicacoes-icon-transporte { left: 735px; top: 1960px; width: 707px; height: 525px; }
+.aplicacoes-icon-transporte img { left: -100.99%; top: 0; width: 217.26%; height: 195.05%; }
+
+.aplicacoes-icon-educacao { left: 85px; top: 2686px; width: 493px; height: 542px; }
+.aplicacoes-icon-educacao img { left: -44.22%; top: 0; width: 311.56%; height: 188.93%; }
+
+.aplicacoes-footer-credit {
+  left: 575px;
+  top: 3587px;
+}

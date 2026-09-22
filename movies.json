@@ -1,0 +1,72 @@
+[
+  {
+    "route": "filmes",
+    "title": "Ex Machina",
+    "poster": "poster-ex-machina.png",
+    "background": "filmes-bg-photo.png",
+    "year": "2015",
+    "topic": "Consciência e inteligência artificial",
+    "url": "https://tv.apple.com/br/movie/ex-machina/umc.cmc.3px5tjkllmjkrluv2ui9m6hbw",
+    "label": "Assistir na Apple TV"
+  },
+  {
+    "route": "matrix",
+    "title": "Matrix",
+    "poster": "poster-matrix.png",
+    "background": "matrix-bg-photo.png",
+    "year": "1999",
+    "topic": "Realidade e simulação",
+    "url": "https://tv.apple.com/br/movie/matrix/umc.cmc.af8k9kcq9r1s1qmmdxpq4itn",
+    "label": "Assistir na Apple TV"
+  },
+  {
+    "route": "eu-robo",
+    "title": "Eu, Robô",
+    "poster": "poster-eu-robo.png",
+    "background": "eurobo-bg-photo.png",
+    "year": "2004",
+    "topic": "Robótica e ética",
+    "url": "https://www.disneyplus.com/pt-br/browse/entity-ce42e744-f65d-4d46-9324-80aec621fc87",
+    "label": "Assistir no Disney+"
+  },
+  {
+    "route": "transcendence",
+    "title": "Transcendence: A Revolução",
+    "poster": "poster-transcendence.png",
+    "background": "filmes-bg-photo.png",
+    "year": "2014",
+    "topic": "Os limites da consciência",
+    "url": "https://tv.apple.com/br/movie/transcendence-a-revolucao/umc.cmc.4cvk5ondghax6hl5vh9crtrbh",
+    "label": "Assistir na Apple TV"
+  },
+  {
+    "route": "familia-mitchell",
+    "title": "A Família Mitchell e a Revolta das Máquinas",
+    "poster": "poster-mitchell.png",
+    "background": "filmes-bg-photo.png",
+    "year": "2021",
+    "topic": "Tecnologia e conexões humanas",
+    "url": "https://www.netflix.com/br/title/81399614",
+    "label": "Assistir na Netflix"
+  },
+  {
+    "route": "homem-bicentenario",
+    "title": "O Homem Bicentenário",
+    "poster": "poster-bicentenario.png",
+    "background": "filmes-bg-photo.png",
+    "year": "1999",
+    "topic": "O que nos torna humanos",
+    "url": "https://tv.apple.com/br/movie/o-homem-bicentenario/umc.cmc.1puq4so4pibnm048pp4qin17t",
+    "label": "Assistir na Apple TV"
+  },
+  {
+    "route": "2001-space",
+    "title": "2001: Uma Odisseia no Espaço",
+    "poster": "poster-4.png",
+    "background": "2001-bg-photo.png",
+    "year": "1968",
+    "topic": "Humanidade e máquinas",
+    "url": "https://tv.apple.com/br/movie/2001-uma-odisseia-no-espaco/umc.cmc.1au04fbnh3q5i2p6sy0ik4rkz",
+    "label": "Assistir na Apple TV"
+  }
+]

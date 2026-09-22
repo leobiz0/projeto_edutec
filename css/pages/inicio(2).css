@@ -1,0 +1,271 @@
+/* Tela: Inicio (node 1:2) — 1440 x 3471 */
+.page-inicio {
+  height: 3471px;
+}
+
+/* Onda inferior (Ellipse 1) */
+.inicio-ellipse-wave {
+  position: absolute;
+  left: -187px;
+  top: 3105px;
+  width: 1806px;
+  height: 575px;
+}
+
+/* Fundos com opacidade */
+.inicio-hero-bg {
+  position: absolute;
+  left: 0;
+  top: 113px;
+  width: 1439px;
+  height: 959px;
+  object-fit: cover;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.inicio-hero-bg-fade {
+  position: absolute;
+  left: 0;
+  top: 1072px;
+  width: 1439px;
+  height: 119px;
+  overflow: hidden;
+  opacity: 0.3;
+  pointer-events: none;
+}
+.inicio-hero-bg-fade img {
+  position: absolute;
+  left: 0.02%;
+  top: -352.48%;
+  width: 100%;
+  height: 806.16%;
+}
+
+/* Hero heading */
+.inicio-hero-title {
+  position: absolute;
+  left: calc(50% + 309px);
+  top: 400px;
+  width: 736px;
+  transform: translateX(-50%);
+  text-align: center;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: normal;
+  color: #000000;
+}
+.inicio-hero-title .gradient {
+  background-image: conic-gradient(from 90deg, rgb(56, 41, 154) 0%, rgb(97, 60, 205) 17.788%, rgb(138, 79, 255) 35.577%, rgb(97, 60, 205) 67.788%, rgb(56, 41, 154) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* CTA buttons */
+.inicio-btn-outline {
+  position: absolute;
+  left: 787px;
+  top: 672px;
+  width: 501px;
+  height: 59px;
+  background: #ffffff;
+  border: 1px solid #8a4fff;
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+.inicio-btn-outline span {
+  position: absolute;
+  left: 126px;
+  top: 12px;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #8a4fff;
+  white-space: nowrap;
+}
+
+.inicio-btn-fill {
+  position: absolute;
+  left: 787px;
+  top: 597px;
+  width: 501px;
+  height: 59px;
+  background: #8a4fff;
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  border: none;
+}
+.inicio-btn-fill span {
+  position: absolute;
+  left: 156px;
+  top: 12px;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+/* Hero illustration */
+.inicio-hero-illustration {
+  position: absolute;
+  left: -36px;
+  top: 306px;
+  width: 712px;
+  height: 475px;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+/* Explore o universo da IA */
+.inicio-explore-title {
+  position: absolute;
+  left: 316px;
+  top: 1054px;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 67px;
+  color: #000000;
+  white-space: nowrap;
+}
+.inicio-explore-title .gradient {
+  background-image: conic-gradient(from 90deg, rgb(71, 189, 253) -24.519%, rgb(72, 154, 251) -8.8942%, rgb(73, 119, 249) 6.7308%, rgb(74, 83, 247) 22.356%, rgb(75, 48, 245) 37.981%, rgb(74, 83, 247) 47.356%, rgb(73, 119, 249) 56.731%, rgb(72, 154, 251) 66.106%, rgb(71, 189, 253) 75.481%, rgb(72, 154, 251) 91.106%, rgb(73, 119, 249) 106.73%, rgb(74, 83, 247) 122.36%, rgb(75, 48, 245) 137.98%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Faixas de seção */
+.inicio-band-purple {
+  position: absolute;
+  left: 0;
+  top: 1191px;
+  width: 1440px;
+  height: 566px;
+  background: #8a4fff;
+}
+.inicio-band-purple-wave {
+  position: absolute;
+  left: 0;
+  top: 1757px;
+  width: 1440px;
+  height: 566px;
+}
+.inicio-band-dark {
+  position: absolute;
+  left: 0;
+  top: 2323px;
+  width: 1440px;
+  height: 566px;
+  background: #273043;
+}
+
+/* Blocos de texto sobre as faixas */
+.inicio-text-block-1 {
+  position: absolute;
+  right: 99px;
+  top: 1268px;
+  width: 781px;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  color: #ffffff;
+  text-align: right;
+  white-space: pre-wrap;
+}
+.inicio-text-block-2 {
+  position: absolute;
+  left: 76px;
+  top: 1863px;
+  width: 707px;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  color: #8a4fff;
+  white-space: pre-wrap;
+}
+.inicio-text-block-3 {
+  position: absolute;
+  right: 99px;
+  top: 2407px;
+  width: 682px;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  color: #ffffff;
+  text-align: right;
+  white-space: pre-wrap;
+}
+
+/* Ícones-crop (mesma imagem-fonte, recortada em 3 posições diferentes) */
+.inicio-icon-crop {
+  position: absolute;
+  overflow: hidden;
+  pointer-events: none;
+}
+.inicio-icon-crop img {
+  position: absolute;
+  max-width: none;
+}
+.inicio-icon-1 { left: 43px; top: 1223px; width: 545px; height: 473px; }
+.inicio-icon-1 img { left: -77.43%; top: 0; width: 253.05%; height: 194.31%; }
+
+.inicio-icon-2 { left: 783px; top: 1776px; width: 607px; height: 527px; }
+.inicio-icon-2 img { left: 0; top: -87.55%; width: 244.2%; height: 187.55%; }
+
+.inicio-icon-3 { left: 31px; top: 2387px; width: 564px; height: 480px; }
+.inicio-icon-3 img { left: -150.98%; top: -96.55%; width: 250.98%; height: 196.55%; }
+
+/* Grupo EDUTEC 2026 */
+.inicio-grupo-title {
+  position: absolute;
+  left: 52px;
+  top: 2931px;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  white-space: nowrap;
+  /* radial no Figma (matriz cx=0 cy=0 r=10 escalada 17.8x/2.7x = elipse
+     centrada, tangente às bordas da caixa de texto) */
+  background-image: radial-gradient(ellipse farthest-side at center, rgba(71,189,253,1) 0%, rgba(72,154,251,1) 25%, rgba(73,119,249,1) 50%, rgba(74,83,247,1) 75%, rgba(75,48,245,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Fotos do grupo */
+.inicio-foto {
+  position: absolute;
+  top: 3002px;
+  width: 254px;
+  height: 317px;
+  object-fit: cover;
+  pointer-events: none;
+}
+.inicio-foto-1 { left: 103px; }
+.inicio-foto-2 { left: 430px; }
+.inicio-foto-3 { left: 757px; }
+.inicio-foto-4 { left: 1083px; }
+
+.inicio-nome {
+  position: absolute;
+  top: 3285px;
+  height: 33px;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #edf1ff;
+}
+.inicio-nome-1 { left: 158px; width: 155px; } /* Leonardo Bizo */
+.inicio-nome-2 { left: 486px; width: 150px; } /* Nickolas Zilig */
+.inicio-nome-3 { left: 829px; width: 118px; } /* Sofia Porto */
+.inicio-nome-4 { left: 1144px; width: 138px; } /* Yago Santos */
+
+.inicio-footer-credit {
+  left: 539px;
+  top: 3429px;
+}

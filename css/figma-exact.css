@@ -1,0 +1,938 @@
+/* Geometria e tipografia originais do Figma. A escala é aplicada à página inteira. */
+.inicio-hero-title {
+  left: 676px;
+  top: 408px;
+  width: 697px;
+  right: auto;
+  transform: none;
+  height: 136px;
+  font-weight: 500;
+}
+.inicio-btn-fill {
+  left: 774px;
+  top: 596px;
+  width: 501px;
+  right: auto;
+  transform: none;
+  height: 59px;
+}
+.inicio-btn-outline {
+  left: 774px;
+  top: 671px;
+  width: 501px;
+  right: auto;
+  transform: none;
+  height: 59px;
+}
+.inicio-hero-illustration {
+  left: 6px;
+  top: 330px;
+  width: 642px;
+  right: auto;
+  transform: none;
+  height: 428px;
+}
+.inicio-explore-title {
+  left: 316px;
+  top: 1054px;
+  width: 807px;
+  right: auto;
+  transform: none;
+  height: 101px;
+  font-weight: 600;
+}
+.inicio-text-block-1 {
+  left: 568px;
+  top: 1322px;
+  width: 740px;
+  right: auto;
+  transform: none;
+  height: 304px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.inicio-text-block-2 {
+  left: 162px;
+  top: 1865px;
+  width: 618px;
+  right: auto;
+  transform: none;
+  height: 304px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.inicio-text-block-3 {
+  left: 681px;
+  top: 2409px;
+  width: 621px;
+  right: auto;
+  transform: none;
+  height: 335px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.inicio-icon-1 {
+  left: 120px;
+  top: 1246px;
+  width: 414px;
+  right: auto;
+  transform: none;
+  height: 359px;
+}
+.inicio-icon-2 {
+  left: 836px;
+  top: 1821px;
+  width: 505px;
+  right: auto;
+  transform: none;
+  height: 438px;
+}
+.inicio-icon-3 {
+  left: 112px;
+  top: 2398px;
+  width: 489px;
+  right: auto;
+  transform: none;
+  height: 416px;
+}
+.inicio-grupo-title {
+  left: 112px;
+  top: 2933px;
+  width: 356px;
+  right: auto;
+  transform: none;
+  height: 54px;
+  font-size: 36px;
+  font-weight: 500;
+}
+.inicio-foto-1 {
+  left: 166px;
+  top: 3001px;
+  width: 228px;
+  right: auto;
+  transform: none;
+  height: 284px;
+}
+.inicio-foto-2 {
+  left: 459px;
+  top: 3001px;
+  width: 228px;
+  right: auto;
+  transform: none;
+  height: 284px;
+}
+.inicio-foto-3 {
+  left: 753px;
+  top: 3001px;
+  width: 227px;
+  right: auto;
+  transform: none;
+  height: 284px;
+}
+.inicio-foto-4 {
+  left: 1045px;
+  top: 3001px;
+  width: 228px;
+  right: auto;
+  transform: none;
+  height: 284px;
+}
+.inicio-nome-1 {
+  left: 205px;
+  top: 3255px;
+  width: 155px;
+  right: auto;
+  transform: none;
+  height: 30px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.inicio-nome-2 {
+  left: 498px;
+  top: 3255px;
+  width: 150px;
+  right: auto;
+  transform: none;
+  height: 30px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.inicio-nome-3 {
+  left: 808px;
+  top: 3255px;
+  width: 118px;
+  right: auto;
+  transform: none;
+  height: 30px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.inicio-nome-4 {
+  left: 1090px;
+  top: 3255px;
+  width: 138px;
+  right: auto;
+  transform: none;
+  height: 30px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.oquee-card-1 {
+  left: 292px;
+  top: 321px;
+  width: 856.03369140625px;
+  right: auto;
+  transform: none;
+  height: 354.0662841796875px;
+}
+.oquee-card-2 {
+  left: 291.9999999999998px;
+  top: 770.9779063649476px;
+  width: 856.03369140625px;
+  right: auto;
+  transform: none;
+  height: 354.0662841796875px;
+}
+.oquee-card-3 {
+  left: 291.9999999999998px;
+  top: 1220.9558127298951px;
+  width: 856.03369140625px;
+  right: auto;
+  transform: none;
+  height: 354.0662841796875px;
+}
+.oquee-card-4 {
+  left: 291.9999999999998px;
+  top: 1670.933719098568px;
+  width: 856.03369140625px;
+  right: auto;
+  transform: none;
+  height: 354.0662841796875px;
+}
+.oquee-card-title-1 {
+  left: 453.34666442871094px;
+  top: 369.4039993286133px;
+  width: 534.2366943359375px;
+  right: auto;
+  transform: none;
+  height: 148.79747009277344px;
+  font-size: 55px;
+  font-weight: 500;
+}
+.oquee-card-title-2 {
+  left: 453.34666442871094px;
+  top: 819.3819046020508px;
+  width: 534.2366943359375px;
+  right: auto;
+  transform: none;
+  height: 148.79747009277344px;
+  font-size: 55px;
+  font-weight: 500;
+}
+.oquee-card-title-3 {
+  left: 453.34666442871094px;
+  top: 1269.3598098754883px;
+  width: 534.2366943359375px;
+  right: auto;
+  transform: none;
+  height: 148.79747009277344px;
+  font-size: 55px;
+  font-weight: 500;
+}
+.oquee-card-title-4 {
+  left: 453.34666442871094px;
+  top: 1719.3377151489258px;
+  width: 534.2366943359375px;
+  right: auto;
+  transform: none;
+  height: 148.79747009277344px;
+  font-size: 55px;
+  font-weight: 500;
+}
+.oquee-card-btn-1 {
+  left: 505.3361358642578px;
+  top: 552.2635498046875px;
+  width: 429.36138916015625px;
+  right: auto;
+  transform: none;
+  height: 74.39873504638672px;
+}
+.oquee-card-btn-2 {
+  left: 505.3361358642578px;
+  top: 1002.241455078125px;
+  width: 429.36138916015625px;
+  right: auto;
+  transform: none;
+  height: 74.39873504638672px;
+}
+.oquee-card-btn-3 {
+  left: 505.3361358642578px;
+  top: 1452.2193603515625px;
+  width: 429.36138916015625px;
+  right: auto;
+  transform: none;
+  height: 74.39873504638672px;
+}
+.oquee-card-btn-4 {
+  left: 505.3361358642578px;
+  top: 1902.197265625px;
+  width: 429.36138916015625px;
+  right: auto;
+  transform: none;
+  height: 74.39873504638672px;
+}
+.oquee-card-btn-label-1 {
+  left: 453.34666442871094px;
+  top: 552.2635498046875px;
+  width: 534.2366943359375px;
+  right: auto;
+  transform: none;
+  height: 74.39873504638672px;
+  font-size: 55px;
+  font-weight: 500;
+}
+.oquee-card-btn-label-2 {
+  left: 453.34666442871094px;
+  top: 1002.241455078125px;
+  width: 534.2366943359375px;
+  right: auto;
+  transform: none;
+  height: 74.39873504638672px;
+  font-size: 55px;
+  font-weight: 500;
+}
+.oquee-card-btn-label-3 {
+  left: 453.34666442871094px;
+  top: 1452.2193603515625px;
+  width: 534.2366943359375px;
+  right: auto;
+  transform: none;
+  height: 74.39873504638672px;
+  font-size: 55px;
+  font-weight: 500;
+}
+.oquee-card-btn-label-4 {
+  left: 453.34666442871094px;
+  top: 1902.197265625px;
+  width: 534.2366943359375px;
+  right: auto;
+  transform: none;
+  height: 74.39873504638672px;
+  font-size: 55px;
+  font-weight: 500;
+}
+.oquee-deco-1 {
+  left: 213px;
+  top: 262.4012451171875px;
+  width: 219.30552226876716px;
+  right: auto;
+  transform: none;
+  height: 206.50504030221964px;
+}
+.oquee-deco-2 {
+  left: 1020px;
+  top: 675px;
+  width: 172px;
+  right: auto;
+  transform: none;
+  height: 191px;
+}
+.oquee-deco-3 {
+  left: 182px;
+  top: 1191.492431640625px;
+  width: 270.7620755687112px;
+  right: auto;
+  transform: none;
+  height: 253.84901420348615px;
+}
+.oquee-deco-4 {
+  left: 1020px;
+  top: 1609px;
+  width: 242px;
+  right: auto;
+  transform: none;
+  height: 185px;
+}
+.oquee-footer-credit {
+  left: 575px;
+  top: 2147px;
+  width: 290px;
+  right: auto;
+  transform: none;
+  height: 34px;
+}
+.aplicacoes-title {
+  left: 264px;
+  top: 282px;
+  width: 912px;
+  right: auto;
+  transform: none;
+  height: 75px;
+  font-size: 50px;
+  font-weight: 700;
+}
+.aplicacoes-body-saude {
+  left: 157px;
+  top: 533px;
+  width: 618px;
+  right: auto;
+  transform: none;
+  font-size: 24px;
+  font-weight: 400;
+}
+.aplicacoes-heading-saude {
+  left: 157px;
+  top: 438px;
+  width: 327px;
+  right: auto;
+  transform: none;
+  height: 98px;
+  font-size: 65px;
+  font-weight: 700;
+}
+.aplicacoes-body-industria {
+  left: 648px;
+  top: 1378px;
+  width: 635px;
+  right: auto;
+  transform: none;
+  font-size: 24px;
+  font-weight: 400;
+}
+.aplicacoes-body-transporte {
+  left: 112px;
+  top: 2071px;
+  width: 670px;
+  right: auto;
+  transform: none;
+  font-size: 24px;
+  font-weight: 400;
+}
+.aplicacoes-body-educacao {
+  left: 696px;
+  top: 2835px;
+  width: 622px;
+  right: auto;
+  transform: none;
+  font-size: 24px;
+  font-weight: 400;
+}
+.aplicacoes-icon-saude {
+  left: 854px;
+  top: 510px;
+  width: 429px;
+  right: auto;
+  transform: none;
+  height: 432px;
+}
+.aplicacoes-icon-industria {
+  left: 157px;
+  top: 1242px;
+  width: 482px;
+  right: auto;
+  transform: none;
+  height: 414px;
+}
+.aplicacoes-icon-transporte {
+  left: 735px;
+  top: 1960px;
+  width: 598px;
+  right: auto;
+  transform: none;
+  height: 444px;
+}
+.aplicacoes-icon-educacao {
+  left: 157px;
+  top: 2717px;
+  width: 465px;
+  right: auto;
+  transform: none;
+  height: 511px;
+}
+.definicao-card {
+  left: 213.99999219179153px;
+  top: 284.99999999999955px;
+  width: 1057.14697265625px;
+  right: auto;
+  transform: none;
+  height: 2059px;
+}
+.definicao-title {
+  left: 308.65586853027344px;
+  top: 379.65587615966797px;
+  width: 746.0009155273438px;
+  right: auto;
+  transform: none;
+  height: 196.8092803955078px;
+  font-size: 70px;
+  font-weight: 500;
+}
+.definicao-body {
+  left: 308.4763412475586px;
+  top: 615.1802368164062px;
+  width: 753.86279296875px;
+  right: auto;
+  transform: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+.definicao-ellipse {
+  left: 214px;
+  top: 1491px;
+  width: 1058.084228515625px;
+  right: auto;
+  transform: none;
+  height: 483.5885314941406px;
+}
+.definicao-video-card {
+  left: 213px;
+  top: 1722px;
+  width: 1057.14697265625px;
+  right: auto;
+  transform: none;
+  height: 679.4606323242188px;
+}
+.definicao-video-title {
+  left: 407px;
+  top: 1604px;
+  width: 673px;
+  right: auto;
+  transform: none;
+  height: 211px;
+  font-size: 45px;
+  font-weight: 500;
+}
+.definicao-video-frame {
+  left: 388px;
+  top: 1858px;
+  width: 712px;
+  right: auto;
+  transform: none;
+  height: 441px;
+}
+.definicao-logo-small {
+  left: 601px;
+  top: 2472px;
+  width: 238px;
+  right: auto;
+  transform: none;
+  height: 59px;
+}
+.definicao-footer-credit {
+  left: 564px;
+  top: 2531px;
+  width: 311.2658996582031px;
+  right: auto;
+  transform: none;
+  height: 38.97416305541992px;
+}
+.cadastro-card {
+  left: 392px;
+  top: 195px;
+  width: 657px;
+  right: auto;
+  transform: none;
+  height: 857px;
+}
+.cadastro-title {
+  left: 492.29832458496094px;
+  top: 218.959228515625px;
+  width: 456.40338134765625px;
+  right: auto;
+  transform: none;
+  height: 105.9731216430664px;
+  font-size: 80px;
+  font-weight: 700;
+}
+.cadastro-subtitle {
+  left: 590.7112121582031px;
+  top: 325px;
+  width: 284.5863952636719px;
+  right: auto;
+  transform: none;
+  height: 39px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.cadastro-field-nome {
+  left: 497.81932067871094px;
+  top: 394.966552734375px;
+  width: 444.4411926269531px;
+  right: auto;
+  transform: none;
+  height: 73.72042846679688px;
+}
+.cadastro-field-email {
+  left: 497.81932067871094px;
+  top: 507.390380859375px;
+  width: 444.4411926269531px;
+  right: auto;
+  transform: none;
+  height: 73.72042846679688px;
+}
+.cadastro-field-senha {
+  left: 497.81932067871094px;
+  top: 619.81396484375px;
+  width: 444.4411926269531px;
+  right: auto;
+  transform: none;
+  height: 73.72042846679688px;
+}
+.cadastro-field-confirmar {
+  left: 497.81932067871094px;
+  top: 732.23779296875px;
+  width: 444.4411926269531px;
+  right: auto;
+  transform: none;
+  height: 73.72042846679688px;
+}
+.cadastro-label-nome {
+  left: 515.3025207519531px;
+  top: 419.847412109375px;
+  width: 299.97479248046875px;
+  right: auto;
+  transform: none;
+  height: 48.839786529541016px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.cadastro-label-email {
+  left: 515.3025207519531px;
+  top: 532.27099609375px;
+  width: 259.4873962402344px;
+  right: auto;
+  transform: none;
+  height: 48.839786529541016px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.cadastro-label-senha {
+  left: 515.3025207519531px;
+  top: 644.69482421875px;
+  width: 259.4873962402344px;
+  right: auto;
+  transform: none;
+  height: 48.839786529541016px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.cadastro-label-confirmar {
+  left: 515.3025207519531px;
+  top: 757.1181640625px;
+  width: 334.02099609375px;
+  right: auto;
+  transform: none;
+  height: 48.839786529541016px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.cadastro-btn {
+  left: 497.81932067871094px;
+  top: 844.6611328125px;
+  width: 444.4411926269531px;
+  right: auto;
+  transform: none;
+  height: 73.72042846679688px;
+}
+.cadastro-btn-label {
+  left: 660px;
+  top: 864px;
+  width: 122px;
+  right: auto;
+  transform: none;
+  height: 36px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.cadastro-login-link {
+  left: 613.6778259277344px;
+  top: 956px;
+  width: 211.6923370361328px;
+  right: auto;
+  transform: none;
+  height: 49px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.entrar-card {
+  left: 390px;
+  top: 191px;
+  width: 657px;
+  right: auto;
+  transform: none;
+  height: 761px;
+}
+.entrar-title {
+  left: 562.393798828125px;
+  top: 215px;
+  width: 419px;
+  right: auto;
+  transform: none;
+  height: 104px;
+  font-size: 80px;
+  font-weight: 700;
+}
+.entrar-subtitle {
+  left: 575.393798828125px;
+  top: 319px;
+  width: 300px;
+  right: auto;
+  transform: none;
+  height: 38px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.entrar-field-email {
+  left: 495.81932067871094px;
+  top: 388.06103515625px;
+  width: 444.441162109375px;
+  right: auto;
+  transform: none;
+  height: 72.64916229248047px;
+}
+.entrar-field-senha {
+  left: 495.81932067871094px;
+  top: 498.8505859375px;
+  width: 444.441162109375px;
+  right: auto;
+  transform: none;
+  height: 72.64916229248047px;
+}
+.entrar-label-email {
+  left: 513.3025131225586px;
+  top: 412.580078125px;
+  width: 299.97479248046875px;
+  right: auto;
+  transform: none;
+  height: 48.130069732666016px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.entrar-label-senha {
+  left: 513.3025131225586px;
+  top: 523.3701171875px;
+  width: 259.4873962402344px;
+  right: auto;
+  transform: none;
+  height: 48.130069732666016px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.entrar-btn {
+  left: 495.81932067871094px;
+  top: 602.3759765625px;
+  width: 444.441162109375px;
+  right: auto;
+  transform: none;
+  height: 72.64916229248047px;
+}
+.entrar-btn-label {
+  left: 634.393798828125px;
+  top: 622px;
+  width: 168px;
+  right: auto;
+  transform: none;
+  height: 33px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.entrar-divider {
+  left: 497.6596704815347px;
+  top: 722.2470169067383px;
+  width: 440.7643127441406px;
+  right: auto;
+  transform: none;
+  height: 0px;
+}
+.entrar-divider-pill {
+  left: 699.1764221191406px;
+  top: 708.62548828125px;
+  width: 38.64706039428711px;
+  right: auto;
+  transform: none;
+  height: 26.3353214263916px;
+}
+.entrar-divider-label {
+  left: 706.3937835693359px;
+  top: 706px;
+  width: 46px;
+  right: auto;
+  transform: none;
+  height: 27px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.entrar-google-btn {
+  left: 495.81932067871094px;
+  top: 765.83642578125px;
+  width: 442.600830078125px;
+  right: auto;
+  transform: none;
+  height: 54.486873626708984px;
+}
+.entrar-google-label {
+  left: 594.393798828125px;
+  top: 778px;
+  width: 286px;
+  right: auto;
+  transform: none;
+  height: 28px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.entrar-google-icon {
+  left: 513.3871688842773px;
+  top: 780.2821044921875px;
+  width: 25.595399856567383px;
+  right: auto;
+  transform: none;
+  height: 25.595399856567383px;
+}
+.entrar-signup-link {
+  left: 552.393798828125px;
+  top: 858px;
+  width: 346px;
+  right: auto;
+  transform: none;
+  height: 48px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+html {
+  scrollbar-width: auto;
+}
+html::-webkit-scrollbar {
+  display: block;
+}
+body {
+  display: block;
+}
+.page {
+  margin-inline: auto;
+  flex-shrink: 0;
+}
+.site-header {
+  width: 1440px;
+}
+.inicio-hero-title {
+  font-size: 45px;
+}
+.inicio-explore-title {
+  font-size: 67px;
+}
+.inicio-btn-fill span,
+.inicio-btn-outline span {
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inicio-hero-title .gradient {
+  font-size: 45px;
+}
+.page-oquee {
+  height: 2208px;
+}
+.oquee-bg-3 {
+  height: 345px;
+}
+.oquee-card {
+  border-radius: 85px;
+}
+.oquee-deco-1 .rotate-wrap,
+.oquee-deco-3 .rotate-wrap {
+  width: 100%;
+  height: 100%;
+}
+.definicao-body {
+  font-size: 20px;
+}
+.definicao-title {
+  font-size: 65.6px;
+}
+.definicao-video-title {
+  font-size: 45px;
+}
+.artigo-bg-3 {
+  opacity: 0.3;
+}
+.cadastro-title {
+  font-size: 78px;
+}
+.entrar-title {
+  font-size: 78px;
+}
+.cadastro-card,
+.entrar-card {
+  border-radius: 100px;
+}
+.cadastro-label,
+.entrar-label {
+  font-size: 20px;
+}
+.page-filmes {
+  background: #edf1ff;
+}
+.filmes-title,
+.filmes-synopsis {
+  color: #8a4fff;
+}
+.filmes-watch-btn {
+  background: #8a4fff;
+  box-shadow: 0 4px 4px #0006;
+}
+.filmes-watch-btn span {
+  color: #fff;
+}
+.filmes-bg-photo {
+  opacity: 0.2;
+}
+.filmes-bg-pattern {
+  opacity: 0.3;
+}
+.filmes-title-long {
+  white-space: normal;
+  top: 346px;
+  width: 467px;
+}
+.filmes-synopsis-long {
+  top: 515px;
+}
+.filmes-carousel {
+  left: 595px;
+  top: 333px;
+  height: 385px;
+  touch-action: auto;
+}
+.filmes-carousel-track {
+  gap: 28.64px;
+  padding-left: 57px;
+}
+.filmes-poster {
+  width: 260px;
+  height: 385px;
+  border-radius: 25px;
+  border: 10px solid #6941ed;
+  background: #6941ed;
+}
+.filmes-poster img {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.filmes-poster a {
+  position: relative;
+}
+a:focus-visible {
+  outline: 3px solid #38299a;
+  outline-offset: 4px;
+}
+/* O grupo dos cartões no Figma está reduzido a 89,64% do tamanho nominal. */
+.oquee-card-title,
+.oquee-card-btn-label {
+  font-size: 49.3px;
+  line-height: 1.5;
+}

@@ -9,15 +9,19 @@
 <meta property="og:title" content="InovaAI — Entenda Inteligência Artificial">
 <meta property="og:description" content="Site educativo sobre Inteligência Artificial — trabalho do curso técnico em TI, Grupo EDUTEC 2026.">
 <meta property="og:image" content="/og-image.png">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+<link rel="preload" href="/assets/fonts/poppins-0.ttf" as="font" type="font/ttf" crossorigin>
+<script src="/js/fill-screen.js?v=header-uniforme"></script>
+<link rel="stylesheet" href="/css/fonts.css">
 <link rel="stylesheet" href="/css/base.css">
 <link rel="stylesheet" href="/css/pages/inicio.css">
-<script src="/js/fill-screen.js"></script>
+
+<link rel="stylesheet" href="/css/theme.css?v=header-uniforme">
+<script src="/js/theme.js"></script>
 </head>
 <body>
 <div class="page page-inicio">
 
-  <img class="inicio-ellipse-wave" src="/assets/icons/ellipse-wave.svg" alt="">
+  <img class="inicio-ellipse-wave" src="/assets/icons/ellipse-wave.svg" data-light-src="/assets/icons/ellipse-wave.svg" data-dark-src="/assets/icons/dark-footer.svg" alt="">
   <img class="inicio-hero-bg" src="/assets/images/hero-bg.png" alt="">
   <div class="inicio-hero-bg-fade">
     <img src="/assets/images/hero-bg.png" alt="">
@@ -30,11 +34,11 @@
       <span class="active" style="left:367px">Inicio</span>
       <a href="/o-que-e/" style="left:466px">O que é ?</a>
       <a href="/aplicacoes/" style="left:615px">Aplicações</a>
-      <a href="/jogo/" style="left:783px">Jogo</a>
+      <a href="./jogo/index.html" style="left:783px">Jogo</a>
       <a href="/filmes/" style="left:884px">Filmes</a>
       <div class="nav-underline" style="left:367px"></div>
     </nav>
-    <img class="moon-icon" src="/assets/images/moon.png" alt="">
+    <button class="moon-icon theme-toggle" type="button" aria-label="Ativar modo escuro" aria-pressed="false"><img src="/assets/images/moon.png" alt=""></button>
   </header>
 
   <p class="inicio-hero-title">

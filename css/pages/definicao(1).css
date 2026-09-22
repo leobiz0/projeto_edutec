@@ -1,0 +1,160 @@
+/* Tela: Definição (node 18:121) — 1440 x 2630 */
+.page-definicao {
+  height: 2630px;
+}
+
+.definicao-bg-1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1439px;
+  height: 959px;
+  object-fit: cover;
+  opacity: 0.3;
+  pointer-events: none;
+}
+.definicao-bg-2 {
+  position: absolute;
+  left: 0;
+  top: 919px;
+  width: 1439px;
+  height: 959px;
+  overflow: hidden;
+  opacity: 0.3;
+  pointer-events: none;
+}
+.definicao-bg-2 img {
+  position: absolute;
+  left: 0;
+  top: -0.02%;
+  width: 100%;
+  height: 100.03%;
+}
+.definicao-bg-3 {
+  position: absolute;
+  left: 1px;
+  top: 1782px;
+  width: 1439px;
+  height: 848px;
+  overflow: hidden;
+  opacity: 0.3;
+  pointer-events: none;
+}
+.definicao-bg-3 img {
+  position: absolute;
+  left: 0;
+  top: -0.02%;
+  width: 100%;
+  height: 113.13%;
+}
+
+.definicao-back {
+  position: absolute;
+  left: 58px;
+  top: 159px;
+  width: 83px;
+  height: 83px;
+  cursor: pointer;
+}
+
+/* Card grande roxo com o texto */
+.definicao-card {
+  position: absolute;
+  left: 161px;
+  top: 222px;
+  width: 1128px;
+  height: 2197px;
+  background: #8a4fff;
+  border-radius: 91px;
+}
+
+.definicao-title {
+  position: absolute;
+  left: 262px;
+  top: 323px;
+  width: 796px;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 70px;
+  color: #ffffff;
+  line-height: normal;
+}
+
+.definicao-body {
+  position: absolute;
+  left: 262px;
+  top: 574px;
+  width: 762px;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: normal;
+}
+.definicao-body p {
+  margin-bottom: 20px;
+}
+.definicao-body p:last-child {
+  margin-bottom: 0;
+}
+
+.definicao-ellipse {
+  position: absolute;
+  left: 161px;
+  top: 1456px;
+  width: 1129px;
+  height: 516px;
+}
+
+.definicao-video-card {
+  position: absolute;
+  left: 162px;
+  top: 1694px;
+  width: 1128px;
+  height: 725px;
+  background: #273043;
+  border-radius: 0 0 91px 91px;
+}
+
+.definicao-video-title {
+  position: absolute;
+  left: 50%;
+  top: 1601px;
+  width: 754px;
+  transform: translateX(calc(-50% + 5px));
+  text-align: center;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: #ffffff;
+  line-height: normal;
+}
+
+.definicao-video-frame {
+  position: absolute;
+  left: 370px;
+  top: 1865px;
+  width: 712px;
+  height: 441px;
+  overflow: hidden;
+  background: #000;
+}
+.definicao-video-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+.definicao-logo-small {
+  position: absolute;
+  left: 607px;
+  top: 2472px;
+  width: 238px;
+  height: 59px;
+}
+
+.definicao-footer-credit {
+  left: 575px;
+  top: 2541px;
+}
